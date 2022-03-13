@@ -44,6 +44,7 @@ class AES_TEST extends React.Component {
             from: accounts[0],
           })
         )
+        console.log(`MetaMask public encryption key: ${key}`) // Example: g+s85upRuddCjwsSgbRAVGK2BKZDDM8/PqTxD9BGnWY=
         return key;
       } catch(err) {
         console.log(err.message)
