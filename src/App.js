@@ -1,6 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import AES_TEST from './AES_TEST';
+import logo from "./logo.svg";
+import "./App.css";
+import AES_TEST from "./AES_TEST";
+import ARSEED_TEST from "./ARSEED_TEST";
+import SIGN_TEST from "./SIGN_TEST";
 
 function App() {
   return (
@@ -19,7 +21,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <AES_TEST />
+      <SIGN_TEST />
     </div>
   );
 }
